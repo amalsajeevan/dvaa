@@ -2,4 +2,4 @@ language: python
 python:
   - "2.7"
 install: pip install requests==2.9.1
-script: python wrapper.py -n .apk -appId 654facc8627b219a1078d9cd4cf5fc93 -token < AuthToken >
+script: python wrapper.py -n sieve.apk -appId 654facc8627b219a1078d9cd4cf5fc93 -token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFtYWwiLCJvcmlnX2lhdCI6MTUwNTM2NzA0NywidXNlcl9pZCI6MjEsImVtYWlsIjoiYW1hbC5hc0BhY2NlbnR1cmUuY29tIiwiZXhwIjoxNTExODQ3MDQ3fQ.9uZn4UiHkD4QrELUoRdqbIEdDHycxRo4gKLVtw17VdI
